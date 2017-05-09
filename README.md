@@ -5,4 +5,6 @@ git clone git@github.com:robertbasic/mockery-unrelated-tests-failing.git
 cd mockery-unrelated-tests-failing
 composer install
 ./vendor/bin/phpunit
+git checkout failing-example
+./vendor/bin/phpunit
 ```

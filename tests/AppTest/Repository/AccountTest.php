@@ -38,7 +38,7 @@ class AccountTest extends TestCase
 
         $this->queryBuilderMock->shouldReceive('insert')
             ->once()
-            ->with('account')
+            ->with('bad table')
             ->andReturnSelf();
 
         $this->queryBuilderMock->shouldReceive('values')
