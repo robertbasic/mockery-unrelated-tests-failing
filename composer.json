@@ -1,0 +1,25 @@
+{
+    "name": "robertbasic/mockery-unrelated-test-failing",
+    "license": "MIT",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Robert Basic",
+            "homepage": "https://robertbasic.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^6.0",
+        "mockery/mockery": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "": "tests/"
+        }
+    }
+}
